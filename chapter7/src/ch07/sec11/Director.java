@@ -1,3 +1,4 @@
+/*
 package ch07.sec11;
 
 public class Director extends Manager {
@@ -7,3 +8,4 @@ public class Director extends Manager {
         System.out.println("제품을 기획합니다.");
     }
 }
+*/

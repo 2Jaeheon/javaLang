@@ -1,3 +1,4 @@
+/*
 package ch07.sec11;
 
 public class SealedExample {
@@ -14,3 +15,4 @@ public class SealedExample {
         d.work();
     }
 }
+*/
