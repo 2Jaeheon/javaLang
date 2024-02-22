@@ -17,6 +17,5 @@ public class StreamExample {
         //Stream을 이용한 요소 반복 처라ㅣ
         Stream<String> stream = set.stream(); //스트림 얻기
         stream.forEach(name -> System.out.println(name)); //스트림을 이용해서 요소를 출력
-
     }
 }
