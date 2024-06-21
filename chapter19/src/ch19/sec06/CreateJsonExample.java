@@ -40,7 +40,7 @@ public class CreateJsonExample {
         System.out.println(json);
 
         //파일로 저장
-        Writer writer = new FileWriter("C:/Temp/winter.json");
+        Writer writer = new FileWriter("/Users/leejaeheon/Desktop/Programming/Temp/member.json");
         writer.write(json);
         writer.flush();
         writer.close();

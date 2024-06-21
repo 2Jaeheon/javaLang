@@ -18,7 +18,7 @@ public class ParseJsonExample {
         try {
             // 파일로부터 JSON 읽기
             BufferedReader br = new BufferedReader(
-                new FileReader("C:/Temp/member.json")
+                new FileReader("/Users/leejaeheon/Desktop/Programming/Temp/member.json")
             );
             String json = br.readLine();
             br.close();
