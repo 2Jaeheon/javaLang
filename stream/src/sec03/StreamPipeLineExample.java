@@ -17,6 +17,7 @@ public class StreamPipeLineExample {
         //방법 1
         Stream<Student> studentStream = list.stream();
         //중간처리
+        //mapToInt() 메소드는 객체를 int값으로 매핑해서 IntStream으로 전환시키는 것
         IntStream scoreStream = studentStream.mapToInt(student -> student.getScore());
 
 
